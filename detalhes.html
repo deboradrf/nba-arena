@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Álbum</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg px-5" style="background-color: black;">
+        <div class="container-fluid">
+            <a class="navbar-brand m-auto" href="index.html" style="color: #A0522D;">
+                <img id="img-logo" src="./img/logo.png" width="150" height="60">
+                NBA's Arena
+            </a>
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="index.html#mapa">Mapa</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="index.html#lista-album">Álbuns</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="index.html#sobre">Sobre</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="index.html#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="album" id="album"></div>
+    <div class="card-item" id="card-item"></div>
+
+    <script>
+        function obterIdDaURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('id');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var idURL = obterIdDaURL();
+            criarAlbum(idURL);
+        });
+    </script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

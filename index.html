@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/4392b60e4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>NBA's Arena</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg px-5" style="background-color: black;">
+        <div class="container-fluid">
+            <a class="navbar-brand m-auto" href="#" style="color: #A0522D;">
+                <img id="img-logo" src="./img/logo.png" width="150" height="60">
+                NBA's Arena
+            </a>
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="#mapa">Mapa</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="#lista-album">Álbuns</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="destaque">
+        <div class="title-destaque">
+          <h4>Destaque</h4>
+          <hr size="10" width="100%">
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/destaque1.jpg" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/destaque2.jpg" class="d-block w-100" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/destaque3.jpg" class="d-block w-100" alt="Imagem 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    <div class="mapa" id="mapa">
+        <h4>Mapa</h4>
+        <hr size="10" width="100%">
+        <div id="map"></div>
+    </div>
+    <div class="lista-album" id="lista-album">
+        <h4>Lista de Álbuns</h4>
+        <hr size="10" width="100%">
+
+        <div class="card-lista" id="card-lista"></div>
+    </div>
+    <footer>
+        <div class="creditos">
+            <h4>Créditos</h4>
+            <hr size="10" width="100%">
+            <div class="sobre-contato">
+                <div class="sobre" id="sobre">
+                    <h5 style="color: #A0522D;">Sobre</h5>
+                    <h6>Trabalho de Desenvolvimento de Interface Web sobre as diversas arenas de basquete da NBA.</h6>
+                </div>
+                <div class="contato" id="contato">
+                    <br>
+                    <h5 style="color: #A0522D;">Contato</h5>
+                    <a href="https://github.com/deboradrf" style="color: black; margin-right: 2%;">
+                        <i class="fa-brands fa-github fa-2x" style="color: #000000;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/deborapfonseca/" style="color: black; margin-right: 2%;">
+                        <i class="fa-brands fa-linkedin fa-2x" style="color: #000000;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let ginasios = [
+            {
+                id: 1,
+                descricao: 'Barclays Center',
+                endereco: '620 Atlantic Ave',
+                cidade: 'New York',
+                latlong: [-73.97519877203152, 40.68273933150909],
+                url: 'detalhes.html?id=1',
+                cor: 'black'
+            },
+            {
+                id: 2,
+                descricao: 'Chase Center',
+                endereco: '1 Warriors Way',
+                cidade: 'San Francisco',
+                latlong: [-122.38778483721569, 37.768217780649074],
+                url: 'detalhes.html?id=2',
+                cor: 'orange'
+            },
+            {
+                id: 3,
+                descricao: 'Fiserv Forum',
+                endereco: '1111 Vel R. Phillips Ave',
+                cidade: 'Milwaukee',
+                latlong: [-87.91674527802776, 43.045184913957335],
+                url: 'detalhes.html?id=3',
+                cor: 'blue'
+            },
+            {
+                id: 4,
+                descricao: 'Kaseya Center',
+                endereco: '601 Biscayne Blvd',
+                cidade: 'Miami',
+                latlong: [-80.18629952203104, 25.781519704031606],
+                url: 'detalhes.html?id=4',
+                cor: 'black'
+            },
+            {
+                id: 5,
+                descricao: 'Madison Square Garden',
+                endereco: '4 Pennsylvania Plaza',
+                cidade: 'New York',
+                latlong: [-73.99223708660499, 40.751025349908645],
+                url: 'detalhes.html?id=5',
+                cor: 'orange'
+            },
+            {
+                id: 6,
+                descricao: 'Crypto.com Arena',
+                endereco: '1111 S Figueroa St',
+                cidade: 'Los Angeles',
+                latlong: [-118.26659541591341, 34.043143663501596],
+                url: 'detalhes.html?id=6',
+                cor: 'blue'
+            },
+            {
+                id: 7,
+                descricao: 'TD Garden',
+                endereco: '100 Legends Way',
+                cidade: 'Boston',
+                latlong: [-71.06222590264953, 42.36648406536132],
+                url: 'detalhes.html?id=7',
+                cor: 'black'
+            },
+            {
+                id: 8,
+                descricao: 'United Center',
+                endereco: '1901 W Madison St',
+                cidade: 'Chicago',
+                latlong: [-87.67383257992573, 41.88078662729733],
+                url: 'detalhes.html?id=8',
+                cor: 'orange'
+            },
+            {
+                id: 9,
+                descricao: 'Ball Arena',
+                endereco: '1000 Chopper Cir',
+                cidade: 'Denver',
+                latlong: [-105.00749711300831, 39.74872940644116],
+                url: 'detalhes.html?id=9',
+                cor: 'blue'
+            }
+        ]
+
+        const centralLatLong = [-95.712891, 37.090240]
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZGVib3JhZHJmIiwiYSI6ImNscGQyc3YzeTBycWwya3FzZWF5ZXIzeXgifQ.9BTQ2ztbImDplPdFnczGIA';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v12',
+            center: centralLatLong,
+            zoom: 3
+        });
+
+        ginasios.forEach((uni) => {
+            let popup = new mapboxgl.Popup({ offset: 25 })
+                .setHTML(`<h3><a style="text-decoration: none; color: #A0522D; font-size: 22px" href="${uni.url}" target="_blank">${uni.descricao}</a></h3><br>
+                ${uni.endereco} <br> ${uni.cidade}`);
+            const marker = new mapboxgl.Marker({ color: uni.cor })
+                .setLngLat(uni.latlong)
+                .setPopup(popup)
+                .addTo(map);
+        })
+    </script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

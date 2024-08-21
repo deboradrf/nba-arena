@@ -1,0 +1,903 @@
+{
+    "lista_albuns": [
+    {
+      "id": 1,
+      "imagemCapa": "https://elitesportsny.com/wp-content/uploads/2017/12/GettyImages-587752348.jpg",
+      "titulo": "Barclays Center",
+      "descricao": "Arena do Brooklyn Nets."
+    },
+    {
+      "id": 2,
+      "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chase_Center.jpg/1500px-Chase_Center.jpg&w=1200&q=50",
+      "titulo": "Chase Center",
+      "descricao": "Arena do Golden State Warriors."
+    },
+    {
+      "id": 3,
+      "imagemCapa": "https://populous.com/wp-content/uploads/2019/09/Fiserv_Forum_Exterior_Populous-1504x846.jpg",
+      "titulo": "Fiserv Forum",
+      "descricao": "Arena do Milwaukee Bucks."
+    },
+    {
+      "id": 4,
+      "imagemCapa": "https://pbs.twimg.com/media/FmSAahWXgAA9xQW?format=jpg&name=small",
+      "titulo": "Kaseya Center",
+      "descricao": "Arena do Miami Heat."
+    },
+    {
+      "id": 5,
+      "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg/1500px-Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg&w=1200&q=50",
+      "titulo": "Madison Square Garden",
+      "descricao": "Arena do New York Knicks."
+    },
+    {
+      "id": 6,
+      "imagemCapa": "https://www.nbbj.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnbbj%2Febc0ff08-5420-409d-bdcf-02a29c2b5aa8_Crypto-4750.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75",
+      "titulo": "Crypto.com Arena",
+      "descricao": "Arena do Los Angeles Lakers."
+    },
+    {
+      "id": 7,
+      "imagemCapa": "https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2019/06/bruins-fight-video-td-garden-t.jpg",
+      "titulo": "TD Garden",
+      "descricao": "Arena do Boston Celtics."
+    },
+    {
+      "id": 8,
+      "imagemCapa": "https://wsmech.com/assets/images/projects/headers/United-Center.png",
+      "titulo": "United Center",
+      "descricao": "Arena do Chicago Bulls."
+    },
+    {
+      "id": 9,
+      "imagemCapa": "https://media.9news.com/assets/KUSA/images/f450a714-8a75-4a3e-9448-de2abd36bfd4/f450a714-8a75-4a3e-9448-de2abd36bfd4_750x422.jpg",
+      "titulo": "Ball Arena",
+      "descricao": "Arena do Denver Nuggets."
+    }    
+    ],
+    "albuns": [
+      {
+        "id": 1,
+        "titulo": "Barclays Center",
+        "descricao": "Inaugurada em 21 de setembro de 2012, a arena é a casa do Brooklyn Nets e possui capacidade para mais de 18 mil pessoas nos jogos de basquete.",
+        "longLat": "-73.97519877203152, 40.68273933150909",
+        "data": "26/09/2023",
+        "imagemCapa": "https://elitesportsny.com/wp-content/uploads/2017/12/GettyImages-587752348.jpg"
+      },
+      {
+        "id": 2,
+        "titulo": "Chase Center",
+        "descricao": "Inaugurada em 6 de setembro de 2019, a arena é a casa do Golden State Warriors e possui capacidade para 18 mil pessoas nos jogos de basquete.",
+        "longLat": "-122.38778483721569, 37.768217780649074",
+        "data": "26/09/2023",
+        "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chase_Center.jpg/1500px-Chase_Center.jpg&w=1200&q=50"
+      },
+      {
+        "id": 3,
+        "titulo": "Fiserv Forum",
+        "descricao": "Inaugurada em 26 de agosto de 2018, a arena é a casa do Milwaukee Bucks e possui capacidade para mais de 17 mil pessoas nos jogos de basquete.",
+        "longLat": "-87.91674527802776, 43.045184913957335",
+        "data": "26/09/2023",
+        "imagemCapa": "https://populous.com/wp-content/uploads/2019/09/Fiserv_Forum_Exterior_Populous-1504x846.jpg"
+      },
+      {
+        "id": 4,
+        "titulo": "Kaseya Center",
+        "descricao": "Inaugurada em 31 de dezembro de 1999, a arena é a casa do Miami Heat e possui capacidade para mais de 19 mil pessoas nos jogos de basquete.",
+        "longLat": "-80.18629952203104, 25.781519704031606",
+        "data": "27/09/2023",
+        "imagemCapa": "https://pbs.twimg.com/media/FmSAahWXgAA9xQW?format=jpg&name=small"
+      },
+      {
+        "id": 5,
+        "titulo": "Madison Square Garden",
+        "descricao": "Inaugurada em 11 de fevereiro de 1968, a arena é a casa do New York Knicks e possui capacidade para mais de 19 mil pessoas nos jogos de basquete.",
+        "longLat": "-73.99223708660499, 40.751025349908645",
+        "data": "27/09/2023",
+        "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg/1500px-Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg&w=1200&q=50"
+      },
+      {
+        "id": 6,
+        "titulo": "Crypto.com Arena",
+        "descricao": "Inaugurada em 17 de outubro de 1999, a arena é a casa do Los Angeles Lakers e do Los Angeles Clippers e possui capacidade para mais de 18 mil pessoas nos jogos de basquete.",
+        "longLat": "-118.26659541591341, 34.043143663501596",
+        "data": "28/09/2023",
+        "imagemCapa": "https://www.nbbj.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnbbj%2Febc0ff08-5420-409d-bdcf-02a29c2b5aa8_Crypto-4750.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75"
+      },
+      {
+        "id": 7,
+        "titulo": "TD Garden",
+        "descricao": "Inaugurada em 29 de setembro de 1995, a arena é a casa do Boston Celtics e possui capacidade para mais de 18 mil pessoas nos jogos de basquete.",
+        "longLat": "-71.06222590264953, 42.36648406536132",
+        "data": "28/09/2023",
+        "imagemCapa": "https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2019/06/bruins-fight-video-td-garden-t.jpg"
+      },
+      {
+        "id": 8,
+        "titulo": "United Center",
+        "descricao": "Inaugurada em 18 de agosto de 1994, a arena é a casa do Chicago Bulls e possui capacidade para mais de 20 mil pessoas nos jogos de basquete.",
+        "longLat": "-87.67383257992573, 41.88078662729733",
+        "data": "28/09/2023",
+        "imagemCapa": "https://wsmech.com/assets/images/projects/headers/United-Center.png"
+      },
+      {
+        "id": 9,
+        "titulo": "Ball Arena",
+        "descricao": "Inaugurada em 20 de novembro de 1997, a arena é a casa do Denver Nuggets e possui capacidade para mais de 19 mil pessoas nos jogos de basquete.",
+        "longLat": "-105.00749711300831, 39.74872940644116",
+        "data": "29/09/2023",
+        "imagemCapa": "https://media.9news.com/assets/KUSA/images/f450a714-8a75-4a3e-9448-de2abd36bfd4/f450a714-8a75-4a3e-9448-de2abd36bfd4_750x422.jpg"
+      }    
+    ],
+    "fotos": [
+      {
+        "id": 1,
+        "imagem_um": "https://pbs.twimg.com/media/DsJ1kS3W0AAM85X?format=jpg&name=large",
+        "imagem_dois": "https://jpimg.com.br/uploads/2020/03/barclays-center-casa-brooklyn-nets-reproducao.jpg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 1
+      },
+      {
+        "id": 2,
+        "imagem_um": "https://nypost.com/wp-content/uploads/sites/2/2021/12/brooklyn-sign.jpg?resize=744,496&quality=75&strip=all",
+        "imagem_dois": "https://cdn.vox-cdn.com/thumbor/alAaU6stjsnta55z1CGKtY24wvM=/0x0:5472x3648/920x613/filters:focal(2385x739:3259x1613):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67777533/1192561124.jpg.0.jpg",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Brooklyn Nets",
+        "id_album": 1
+      },
+      {
+        "id": 3,
+        "imagem_um": "https://www.world-architects.com/images/CmsImageContent/50/47/43/f7af0cb0e9f14adfa7b6fb64a7ab1c38/f7af0cb0e9f14adfa7b6fb64a7ab1c38.f5fb7444.jpg?1560506092",
+        "imagem_dois": "https://www.shoparc.com/wp-content/uploads/2018/07/SHoP_Barclays-Cen...ho_Bruce-Damonte_15.jpg",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 1
+      },
+      {
+        "id": 4,
+        "imagem_um": "https://s3-prod.crainsnewyork.com/s3fs-public/styles/width_792/public/REAL_ESTATE_170819994_AR_-1_FANPIVZJQDWN.jpg",
+        "imagem_dois": "https://www.shieldlockers.com/wp-content/uploads/2019/11/Brooklyn-Nets-1024x684.jpg",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Brooklyn Nets e área dos jogadores",
+        "id_album": 1
+      },
+      {
+        "id": 5,
+        "imagem_um": "https://www.suiteexperiencegroup.com/wp-content/themes/responsive/images/barclays-center-a-level-luxury-suite-interior_960.jpg",
+        "imagem_dois": "https://www.suiteexperiencegroup.com/wp-content/themes/responsive/images/barclays-center-interior_960.jpg",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 1
+      },
+      {
+        "id": 6,
+        "imagem_um": "https://www.basketbolgundem.com/wp-content/uploads/2022/10/nets.jpg",
+        "imagem_dois": "https://pbs.twimg.com/media/FSorzJXWUAAxzPK?format=jpg&name=large",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Brooklyn Nets",
+        "id_album": 1
+      },
+      { 
+        "id": 7,
+        "imagem_um": "https://libn.com/wp-content/blogs.dir/1/files/2019/08/barclays-center-aerial.jpg",
+        "imagem_dois": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_768/v1615887142/post_images/new-york-1/NBA-NY/barclays-center1.jpg",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Bruce Ratner",
+        "id_album": 1
+      },
+      {
+        "id": 8,
+        "imagem_um": "https://cdn.vox-cdn.com/thumbor/zhjU_sTv-mXxMjaxKb5PPTl0XF4=/0x0:1100x825/920x613/filters:focal(470x238:646x414):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/51466575/IMG_2166.0.JPG",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/nets/sites/nets/files/banners.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 1
+      },
+      {
+        "id": 9,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/6f64/3312/fd1f/0900/008e/slideshow/Thrive_City_office_building_photo_credit_Jason_O_Rear.jpg?1574137640",
+        "imagem_dois": "https://images.squarespace-cdn.com/content/v1/504bb4bde4b00e2aa82d0099/1400884908363-ZF3JHLEVFX6UK4SJNW03/SHoP_Barclays+Center_pho_Bruce+Damonte_12.jpg?format=750w",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 1
+      },
+      {
+        "id": 10,
+        "imagem_um": "https://upload.wikimedia.org/wikipedia/commons/1/19/2013_Parla_working_at_Barclays_Center.jpg",
+        "imagem_dois": "http://evenmagazine.com/wp-content/uploads/2017/06/ursssss.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Obra do artista José Parla e outros",
+        "id_album": 1
+      },
+      {
+        "id": 11,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/6a24/3312/fd85/b900/006f/slideshow/Chase_Center_Scoreboard_Centercourt_View_photo_credit_Jason_O_Rear_and_Chase_Center.jpg?1574136301",
+        "imagem_dois": "https://viajonarios.com/wp-content/uploads/2020/03/chase-center11.jpeg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra com o maior telão de LED do mundo em uma arena esportiva",
+        "id_album": 2
+      },
+      {
+        "id": 12,
+        "imagem_um": "https://cdn.vox-cdn.com/thumbor/ATfF0cVZpvkmjXRoLZHePb3o3c0=/0x0:3200x2128/920x613/filters:focal(1344x808:1856x1320):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/52643887/542168518.0.jpg",
+        "imagem_dois": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_900/v1/media/gmg/MVKWOWQ2MFG4RMCOJ2ZIRMCR3Q.jpg?_a=AJFJtWIA",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Golden State Warriors",
+        "id_album": 2
+      },
+      {
+        "id": 13,
+        "imagem_um": "https://purefreeform.com/wp-content/uploads/2019/10/Chase-Center-West-Entrance-Lobby-View-1-LR.jpg",
+        "imagem_dois": "https://www.soundandcommunications.com/wp-content/uploads/2019/11/Chase_Center_6.jpg",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 2
+      },
+      {
+        "id": 14,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/6098/3312/fd1f/0900/005a/slideshow/Biofreeze_Performance_Center_Locker_Room_Credit_Jason_O_Rear_Chase_Center.jpg?1574133850",
+        "imagem_dois": "https://s.hdnux.com/photos/01/05/70/34/18319147/17/960x0.webp",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Golden State Warriors e área dos jogadores",
+        "id_album": 2
+      },
+      {
+        "id": 15,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/62eb/3312/fd1f/0900/0060/slideshow/Chase_Center_Club_Suite_View_2_photo_credit_Jason_O_Rear_and_Chase_Center.jpg?1574134448",
+        "imagem_dois": "https://cdn.vox-cdn.com/thumbor/xCcnBUAT2n5v_LOpBjBoDjohk78=/0x0:2000x1333/920x0/filters:focal(0x0:2000x1333):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19126474/ChaseCenter_PChang_5285.jpg",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 2
+      },
+      {
+        "id": 16,
+        "imagem_um": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2015/06/17/goldenstatewarriorsvibracampeaonbajason-millergetty.jpg",
+        "imagem_dois": "https://www.esportelandia.com.br/wp-content/uploads/2023/10/Icon_sipausa_44724070-1024x753.jpg.webp",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Golden State Warriors",
+        "id_album": 2
+      },
+      { 
+        "id": 17,
+        "imagem_um": "https://cdn.vidyard.com/thumbnails/21173186/weIY2yKEAmT90TdrfvDmC3Aes95fJOK7.jpg",
+        "imagem_dois": "https://images.adsttc.com/media/images/5dd3/6ea3/3312/fd1f/0900/008d/slideshow/Thrive_City_aerial_3rd_St._photo_credit_Jason_O_Rear_and_Chase_Center.jpg?1574137440",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Rafael Moneo",
+        "id_album": 2
+      },
+      {
+        "id": 18,
+        "imagem_um": "https://www.denverpost.com/wp-content/uploads/2019/08/SJM-L-CHASE-0827-9-1.jpg?w=1280",
+        "imagem_dois": "http://s2.glbimg.com/GxH9Hma4KW7t3t-eSP135F1mRzA=/189x0:4279x2784/690x470/s.glbimg.com/es/ge/f/original/2015/10/28/2015-10-28t030403z_2078278042_nocid_rtrmadp_3_nba-new-orleans-pelicans-at-golden-state-warriors.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagens as camisas aposentadas e campeonatos",
+        "id_album": 2
+      },
+      {
+        "id": 19,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/6f64/3312/fd1f/0900/008e/slideshow/Thrive_City_office_building_photo_credit_Jason_O_Rear.jpg?1574137640",
+        "imagem_dois": "https://images.adsttc.com/media/images/5dd3/5f8a/3312/fd1f/0900/0057/slideshow/Chase_Center_3rd_Street_Warriors_Way_Ramp_Exterior_photo_credit_Jason_O_Rear_and_Chase_Center.jpg?1574133583",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 2
+      },
+      {
+        "id": 20,
+        "imagem_um": "https://images.adsttc.com/media/images/5dd3/6dd0/3312/fd85/b900/0074/newsletter/Precita_Eyes_mural_The_Bay_photo_credit_Jason_O_Rear.jpg?1574137236",
+        "imagem_dois": "https://media.arubanetworks.com/blogs/Chase-Center-east-side-view-with-Seeing-spheres2_photo-credit-Jason-ORear-768x512.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Obra de Precita Eyes",
+        "id_album": 2
+      },
+      {
+        "id": 21,
+        "imagem_um": "https://nbcsports.brightspotcdn.com/dims4/default/8d7a34b/2147483647/strip/true/crop/5067x2850+0+0/resize/1440x810!/format/webp/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcd%2F0b%2Fa89749893045d290636ddabfad66%2Fcd0ymzcznguwzdbhnduynddiytjhm2yyzthlmtjjotqwyyznptiznddlyjllntg1odzlnmq3ogiyyjvinmzjowzmn2jk-e1443893462517.jpeg",
+        "imagem_dois": "https://w2pcms.com/wp-content/uploads/sites/10/2021/07/AP21193010384750-1024x683.jpg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 3
+      },
+      {
+        "id": 22,
+        "imagem_um": "https://wtmj.com/wp-content/uploads/2020/11/GettyImages-624481438.jpg",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/bucks/sites/bucks/files/24-1.jpg",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Milwaukee Bucks",
+        "id_album": 3
+      },
+      {
+        "id": 23,
+        "imagem_um": "https://pbs.twimg.com/media/DkKhwZnXsAEufve?format=jpg&name=4096x4096",
+        "imagem_dois": "https://populous.com/wp-content/uploads/2018/12/MBNBAAR_0289_GarrettRowland.jpg",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 3
+      },
+      {
+        "id": 24,
+        "imagem_um": "https://pbs.twimg.com/media/DsZd1PBX4AACILy?format=jpg&name=large",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/bucks/sites/bucks/files/20151104_bucks_lockerroom_081.jpg?imwidth=512&imheight=512",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Milwaukee Bucks e área dos jogadores",
+        "id_album": 3
+      },
+      {
+        "id": 25,
+        "imagem_um": "https://www.fiservforum.com/assets/img/ExecutiveSuites-5-fd481d0b8a.png",
+        "imagem_dois": "https://cdn.nba.com/teams/uploads/sites/1610612749/2022/09/TowerClub-1.png",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 3
+      },
+      {
+        "id": 26,
+        "imagem_um": "https://playmakerbrasil.com.br/wp-content/webp-express/webp-images/uploads/2024/01/bucks-dame-2048x1366.jpg.webp",
+        "imagem_dois": "https://atibaiaconnection.com.br/wp-content/uploads/2022/02/Giannis-Antetokounmue-do-Bucks-marca-o-quarto-menos-arremessos-em-1024x576.jpg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Milwaukee Bucks",
+        "id_album": 3
+      },
+      { 
+        "id": 27,
+        "imagem_um": "https://www.milwaukeemag.com/wp-content/uploads/2020/08/VM-FiservForum-NML-Meeting-Convention-563-1024x732.jpg",
+        "imagem_dois": "https://res.cloudinary.com/aposta10/image/upload/c_limit,w_600/f_webp/q_75/v1680209241/E5I4JX2YMNFXPIODAGSRABL2PI.jpg--quyexr?_a=BAVAr0IB0",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Populous HTNB Epstein Uhen Architects",
+        "id_album": 3
+      },
+      {
+        "id": 28,
+        "imagem_um": "https://cdn.vox-cdn.com/thumbor/gAH9kJ_4q_sY5WVYAjOqDjN6GfU=/0x0:1600x1200/920x0/filters:focal(0x0:1600x1200):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/11551627/bucks_banner.jpg",
+        "imagem_dois": "http://www.milwaukeeindependent.com/wp-content/uploads/2018/08/02_082618_FiservRibbonCutting_2282.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 3
+      },
+      {
+        "id": 29,
+        "imagem_um": "https://assets.biztimes.com/uploads/2019/05/20180731_Signing_GDF_0388.jpg",
+        "imagem_dois": "https://www.jsonline.com/gcdn/presto/2019/10/11/PMJS/2841e5d1-c0cc-499a-8cc0-f944447cdcbd-fiserv.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 3
+      },
+      {
+        "id": 30,
+        "imagem_um": "https://cdn.nba.com/teams/legacy/www.nba.com/bucks/sites/bucks/files/gds_0324_0.jpg",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/bucks/sites/bucks/files/gds_0109.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Obra do artista Blake McFarland e outros",
+        "id_album": 3
+      },
+      {
+        "id": 31,
+        "imagem_um": "https://www.koobit.com/website/media/american-airlines-arena-300-level-view-4994-w1900.jpg",
+        "imagem_dois": "https://naturam.com.br/wp-content/uploads/2021/04/miami-heat-florida.jpg.webp",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 4
+      },
+      {
+        "id": 32,
+        "imagem_um": "https://www.insidehook.com/wp-content/uploads/2023/09/GettyImages-1394225679.jpg?fit=1200%2C800",
+        "imagem_dois": "https://media2.miaminewtimes.com/mia/imager/the-five-kinds-of-miami-heat-fans-everyone-knows/u/magnum/11439094/miami-heat-parade-fans-getty.jpg?cb=1642608897",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Miami Heat",
+        "id_album": 4
+      },
+      {
+        "id": 33,
+        "imagem_um": "https://i.shgcdn.com/18a4a72a-d390-49d7-bbce-67b986a4dff9/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+        "imagem_dois": "https://eqiu5qd8nea.exactdn.com/wp-content/uploads/2022/04/JRP-1031.jpg?strip=all&lossy=1&w=2560&ssl=1",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 4
+      },
+      {
+        "id": 34,
+        "imagem_um": "https://media.paperblog.fr/i/858/8589166/quelles-differences-vestiaire-nba-vestiaire-f-L-LpBZ0W.jpeg",
+        "imagem_dois": "https://media.bleacherreport.com/w_800,h_533,c_fill/br-img-article/001/306/136/461693825-udonis-haslem-ray-allen-shane-battier-james-jones_crop_exact.jpg",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Miami Heat e área dos jogadores",
+        "id_album": 4
+      },
+      {
+        "id": 35,
+        "imagem_um": "https://www.suiteexperiencegroup.com/wp-content/themes/responsive/images/heat-center-court-suite-interior-2_960.jpg",
+        "imagem_dois": "https://pbs.twimg.com/media/FN7lHowXIAYHKgx?format=jpg&name=large",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 4
+      },
+      {
+        "id": 36,
+        "imagem_um": "https://cafeviagem.com/wp-content/uploads/2020/03/Miami-Heat-Ingressos-7.jpg",
+        "imagem_dois": "https://media.bleacherreport.com/w_800,h_533,c_fill/br-img-images/001/999/299/hi-res-156375299_crop_north.jpg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Miami Heat",
+        "id_album": 4
+      },
+      { 
+        "id": 37,
+        "imagem_um": "https://nypost.com/wp-content/uploads/sites/2/2023/04/NYPICHPDPICT000005346111.jpg",
+        "imagem_dois": "https://wallpaperaccess.com/full/6709027.jpg",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena multiuso, concebida por George Heinlein",
+        "id_album": 4
+      },
+      {
+        "id": 38,
+        "imagem_um": "https://viberatecdn.blob.core.windows.net/entity/venue/kaseya-center-vbwkP",
+        "imagem_dois": "https://upload.wikimedia.org/wikipedia/commons/6/64/Heat_banners_in_the_rafters.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 4
+      },
+      {
+        "id": 39,
+        "imagem_um": "https://www.crowncorr.com/wp-content/uploads/2020/10/crowncorr-aaarena-stadium-closeup.jpg",
+        "imagem_dois": "https://www.kaseyacenter.com/assets/img/3_MiamiDadeArena.com-Images_1240x448-e447d90db9.jpg",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 4
+      },
+      {
+        "id": 40,
+        "imagem_um": "https://cdn.nba.com/teams/legacy/www.nba.com/heat/sites/heat/files/1-learn-n-play.jpg",
+        "imagem_dois": "https://www.kaseyacenter.com/assets/img/bacardi-ocho-panel-bd5e8901be.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Obra do artista Chuck Sperry e outros",
+        "id_album": 4
+      },
+      {
+        "id": 41,
+        "imagem_um": "https://pbs.twimg.com/media/FHeD3lwWUAU7Kq7?format=jpg&name=large",
+        "imagem_dois": "https://blogviagi.files.wordpress.com/2015/12/basquete.jpg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 5
+      },
+      {
+        "id": 42,
+        "imagem_um": "https://s2-ge.glbimg.com/FaRI7axEIsJdOoVuLFOO3Nesnz8=/0x0:1024x683/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/K/H/DrvMBOQD2j71VAHQAAoQ/gettyimages-1233126882.jpg",
+        "imagem_dois": "https://nypost.com/wp-content/uploads/sites/2/2021/02/GettyImages-1044220404.jpg?resize=1024,682&quality=75&strip=all",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do New York Knicks",
+        "id_album": 5
+      },
+      {
+        "id": 43,
+        "imagem_um": "https://cms.prod.nypr.digital/images/211169/fill-665x444%7Cformat-webp%7Cwebpquality-70/",
+        "imagem_dois": "https://live.staticflickr.com/4358/35702865254_d1c8732df1_k.jpg",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 5
+      },
+      {
+        "id": 44,
+        "imagem_um": "https://live.staticflickr.com/4347/36491448026_20ecc1060d_h.jpg",
+        "imagem_dois": "https://pbs.twimg.com/media/Fcots1wWIAE8Npc?format=jpg&name=4096x4096",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do New York Knicks e área dos jogadores",
+        "id_album": 5
+      },
+      {
+        "id": 45,
+        "imagem_um": "https://cms.prod.nypr.digital/images/211221/fill-665x444%7Cformat-webp%7Cwebpquality-70/",
+        "imagem_dois": "https://cms.prod.nypr.digital/images/211232/fill-1000x667%7Cformat-webp%7Cwebpquality-70/",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 5
+      },
+      {
+        "id": 46,
+        "imagem_um": "https://staticg.sportskeeda.com/editor/2021/10/8ea97-16343235759515-1920.jpg",
+        "imagem_dois": "https://www.sportsmirchi.com/wp-content/uploads/2021/12/New-York-Knicks-team.jpg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do New York Knicks",
+        "id_album": 5
+      },
+      { 
+        "id": 47,
+        "imagem_um": "https://www.civitatis.com/f/estados-unidos/nueva-york/galeria/madison-square-garden-knicks.jpg",
+        "imagem_dois": "https://d3e1m60ptf1oym.cloudfront.net/35449cc0-a9c6-4f12-b8de-873e073571f2/CD_2016_1010_2069_xgaplus.jpg",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Tex Rickard",
+        "id_album": 5
+      },
+      {
+        "id": 48,
+        "imagem_um": "https://live.staticflickr.com/800/40310075744_6559f9a986_h.jpg",
+        "imagem_dois": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f1cc2513369145.56272f01de226.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 5
+      },
+      {
+        "id": 49,
+        "imagem_um": "https://files.structurae.net/files/photos/5256/2016-06-06/dsc05629.jpg",
+        "imagem_dois": "https://cdn2.vox-cdn.com/uploads/chorus_asset/file/3729390/7639202774_427570105f_b.0.jpg",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 5
+      },
+      {
+        "id": 50,
+        "imagem_um": "http://www.heduin.com/newyork/pages/grands/madison%20square%20garden.JPG",
+        "imagem_dois": "https://cdn-p.smehost.net/sites/4788b7ad6b5448c1b90d9322361f98f3/wp-content/uploads/2016/02/K51A2470-1.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Artes de decoração",
+        "id_album": 5
+      },
+      {
+        "id": 51,
+        "imagem_um": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2023/04/24/806x444/1_crypto_arena-22908632.jpg?20231108081403",
+        "imagem_dois": "https://thespun.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTgzMTI4MTg3OTY3NzEwNjI3/nba-finals-game-7--boston-celtics-v-los-angeles-lakers.webp",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 6
+      },
+      {
+        "id": 52,
+        "imagem_um": "https://preview.thenewsmarket.com/Previews/LVVA/StillAssets/1920x1440/481255.jpg",
+        "imagem_dois": "https://bolavip.com/export/sites/bolavip/img/2020/05/05/1__la_lakers.jpg_231334169.jpg",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Los Angeles Lakers",
+        "id_album": 6
+      },
+      {
+        "id": 53,
+        "imagem_um": "https://www.cryptoarena.com/assets/img/Delta-Sky360-Club-27ee08e8be.jpg",
+        "imagem_dois": "https://mms.businesswire.com/media/20221011006184/en/1598952/5/Chairman%27s_Club.jpg?download=1&_gl=1*1fpukfc*_ga*MTI2MzIwMjE2Ni4xNzAxNDMxNzY1*_ga_ZQWF70T3FK*MTcwMTQzMTc2NC4xLjAuMTcwMTQzMTc2Ni41OC4wLjA.",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 6
+      },
+      {
+        "id": 54,
+        "imagem_um": "https://pbs.twimg.com/media/DoiK38SVsAAMuQP?format=jpg&name=large",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/lakers/sites/lakers/files/lakers_locker_1200.jpg?imwidth=512&imheight=512",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Los Angeles Lakers e área dos jogadores",
+        "id_album": 6
+      },
+      {
+        "id": 55,
+        "imagem_um": "https://www.cryptoarena.com/assets/img/20161109_New_Event_Suites_004-210c150700-c029cb77c1-d75cd594ca.jpeg",
+        "imagem_dois": "https://thevendry.com/cdn-cgi/image/width=640,quality=75,fit=contain,metadata=none,format=auto/https%3A%2F%2Fs3.us-east-1.amazonaws.com%2Fuploads.thevendry.co%2F23050%2F1675763298807_Ritz_Hero_6-9e1bb24f50-copy-6d9905f4c1.jpg",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 6
+      },
+      {
+        "id": 56,
+        "imagem_um": "https://pbs.twimg.com/media/FslgbbkXsAAoKrJ?format=jpg&name=4096x4096",
+        "imagem_dois": "https://r8p9h9p8.rocketcdn.me/wp-content/uploads/2023/05/063_1489600748.jpg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Los Angeles Lakers",
+        "id_album": 6
+      },
+      { 
+        "id": 57,
+        "imagem_um": "https://www.sportspromedia.com/wp-content/uploads/2023/06/Crypto-HOZ.jpg",
+        "imagem_dois": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Crypto.com_Arena_2022.jpg/1500px-Crypto.com_Arena_2022.jpg&w=1200&q=50",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Anteriormente conhecida como Staples Center, o ginásio mudou seu nome após o website ter comprado os direitos de nome da arena",
+        "id_album": 6
+      },
+      {
+        "id": 58,
+        "imagem_um": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Lakers_banners_%26_retired_jerseys_2022.jpg",
+        "imagem_dois": "https://pbs.twimg.com/media/FkSfFTuaYAEGG9-?format=jpg&name=4096x4096",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 6
+      },
+      {
+        "id": 59,
+        "imagem_um": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/239000/239076-Staples-Center.jpg",
+        "imagem_dois": "https://frontofficesports.com/wp-content/uploads/2022/11/Crypto_Refresh_Summer_2022-e1667297475651.jpg",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 6
+      }, {
+        "id": 60,
+        "imagem_um": "https://s.abcnews.com/images/Business/staples-center1-ap-ml-211117_1637158846486_hpMain_16x9_992.jpg?w=992",
+        "imagem_dois": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/152000/152363-Staples-Center.jpg",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Estátua do Magic Johnson e outros",
+        "id_album": 6
+      },
+      {
+        "id": 61,
+        "imagem_um": "https://media.wbur.org/wp/2020/01/0128_td-garden-11ap.jpg",
+        "imagem_dois": "https://pbs.twimg.com/media/F52pheDWkAAp35M?format=jpg&name=4096x4096",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 7
+      },
+      {
+        "id": 62,
+        "imagem_um": "https://www.bostonherald.com/wp-content/uploads/2019/04/celticsce032.jpg",
+        "imagem_dois": "https://www.bostonherald.com/wp-content/uploads/2022/06/celticsms005-1.jpg?w=1280",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Boston Celtics",
+        "id_album": 7
+      },
+      {
+        "id": 63,
+        "imagem_um": "https://www.tdgarden.com/assets/img/103019_BB_0082-4dde0e9b59.JPG",
+        "imagem_dois": "https://www.tdgarden.com/assets/img/103019_BB_0098-aaa4732163.JPG",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 7
+      },
+      {
+        "id": 64,
+        "imagem_um": "https://images.squarespace-cdn.com/content/v1/5a0f48daf6576e6bb6de810f/1622055804255-IA69GUYVCILAIQVT86DS/Roll-Barresi-Auerbach-Center-Celtics-LockerRm-Graphics-Design-rbenson.jpg?format=2500w",
+        "imagem_dois": "https://images.squarespace-cdn.com/content/v1/5ab4527b3c3a536a7a352c05/1529454426925-GX4ETH7RM6B4E8HH13S5/4.jpg?format=1500w",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Boston Celtics e área dos jogadores",
+        "id_album": 7
+      },
+      {
+        "id": 65,
+        "imagem_um": "https://www.tdgarden.com/assets/img/1-1-6fb69d1b65.jpg",
+        "imagem_dois": "https://portfolio.atmosphereci.com/wp-content/uploads/2019/05/TD_garden_7.jpg",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 7
+      },
+      {
+        "id": 66,
+        "imagem_um": "https://uploads.metropoles.com/wp-content/uploads/2023/01/06090600/3-387.jpg",
+        "imagem_dois": "https://imagens.ne10.uol.com.br/veiculos/_midias/jpg/2022/04/25/806x444/1_1240193152_0__1_-20911144.jpg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Boston Celtics",
+        "id_album": 7
+      },
+      { 
+        "id": 67,
+        "imagem_um": "https://www.kone.com/en/Images/KONE-TD-Garden_02-Facts-carousel-4_tcm17-89502.jpg?v=1",
+        "imagem_dois": "https://perspectivabr.files.wordpress.com/2018/03/bostontd-garden_t1.jpg",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Ellerbe Becket",
+        "id_album": 7
+      },
+      {
+        "id": 68,
+        "imagem_um": "https://pbs.twimg.com/media/EnOitN3XMAACnIe?format=jpg&name=4096x4096",
+        "imagem_dois": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/T6PUiPXR8lThmOxmiGGx9vosUh0=/1024x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/VSBL6C7H2H2GNK4XMENXLEDDM4.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 7
+      },
+      {
+        "id": 69,
+        "imagem_um": "https://media.bizj.us/view/img/11175558/td-garden-renovation-1219201841.jpg",
+        "imagem_dois": "https://static1.gensler.com/uploads/image/87613/TheHubonCauseway_004_Anton-Grassl_1694451747.jpg",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 7
+      },
+      {
+        "id": 70,
+        "imagem_um": "https://i.etsystatic.com/16246060/r/il/c6551d/3678204010/il_1140xN.3678204010_e8uj.jpg",
+        "imagem_dois": "https://bdc2020.o0bc.com/wp-content/uploads/2017/03/1b023cdc-2547-11e3-868e-2958265f631e.jpg?width=600",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Estátua do Bobby Orr e outros",
+        "id_album": 7
+      },
+      {
+        "id": 71,
+        "imagem_um": "https://pbs.twimg.com/media/FCapNFmX0AEw80j?format=jpg&name=large",
+        "imagem_dois": "https://v3f3j2v6.stackpathcdn.com/wp-content/uploads/2020/09/basquete-arena-united-center-chicago.jpg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 8
+      },
+      {
+        "id": 72,
+        "imagem_um": "https://ontapsportsnet.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkxOTU5MzU5MDYyMjg3ODU4/bulls-fans.webp",
+        "imagem_dois": "https://media.bizj.us/view/img/10638091/chicago-bulls-united-center*900xx2000-1127-0-206.jpg",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Chicago Bulls",
+        "id_album": 8
+      },
+      {
+        "id": 73,
+        "imagem_um": "https://www.hok.com/wp-content/uploads/2019/06/Atrium_United-Center-East-Addition-1900.jpg",
+        "imagem_dois": "https://www.sportsbusinessjournal.com/-/media/Images/SBJ-Photos/2017/03/13/pg-30-InTheOffice-Chicago-Office-bridge-4039.ashx",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 8
+      },
+      {
+        "id": 74,
+        "imagem_um": "https://pbs.twimg.com/media/EerHefAWAAYKn25?format=jpg&name=large",
+        "imagem_dois": "https://www.hok.com/wp-content/uploads/2019/05/Advocate-Center_Courts_1900.jpg",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Chicago Bulls e área dos jogadores",
+        "id_album": 8
+      },
+      {
+        "id": 75,
+        "imagem_um": "https://www.unitedcenter.com/assets/1/15/GalleryMainDimensionId/LOWER-2.png",
+        "imagem_dois": "https://www.unitedcenter.com/assets/1/15/GalleryMainDimensionId/PENTHOUSE-1.png",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 8
+      },
+      {
+        "id": 76,
+        "imagem_um": "https://cdn.nba.com/teams/legacy/www.nba.com/bulls/sites/bulls/files/631_01182020_cavaliers_bulls_dineen_0436.jpg",
+        "imagem_dois": "https://www.theplayoffs.com.br/wp-content/uploads/2017/12/DQ0FqnqU8AACvE9-768x504.jpeg",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Chicago Bulls",
+        "id_album": 8
+      },
+      { 
+        "id": 77,
+        "imagem_um": "https://images.fineartamerica.com/images-medium-large-5/united-center-chicago-sports-09-thomas-woolworth.jpg",
+        "imagem_dois": "https://yeahthatskosher.com/wp-content/uploads/2022/02/united-center-kosher-stand-chicago.jpeg",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por Jerry Reinsdorf e Bill Wirtz",
+        "id_album": 8
+      },
+      {
+        "id": 78,
+        "imagem_um": "https://cdn.nba.com/teams/legacy/www.nba.com/bulls/sites/bulls/files/centerfold-pippen-night_320.jpg",
+        "imagem_dois": "https://bballwriters.com/wp-content/uploads/2019/05/483110510105_Hawks_v_Bulls-900x600.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 8
+      },
+      {
+        "id": 79,
+        "imagem_um": "https://cdn.vox-cdn.com/thumbor/pWZ_JXJVT-qLXCi_-QEOyEvB1ug=/0x0:1600x1067/920x613/filters:focal(672x406:928x662):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/71933492/48839780127_34eab715da_h.0.jpg",
+        "imagem_dois": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2020/03/647/364/9589110-nhl-preseason-detroit-red-wings-at-chicago-blackhawks.jpeg.jpg?ve=1&tl=1",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 8
+      },
+      {
+        "id": 80,
+        "imagem_um": "https://highschool.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTg3NjAzOTMyODUxNzQxOTUx/michael_jordan_united_center-1.webp",
+        "imagem_dois": "https://media.timeout.com/images/105182091/750/422/image.webp",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Estátua do Michael Jordan e outros",
+        "id_album": 8
+      },
+      {
+        "id": 81,
+        "imagem_um": "https://cdn-west.sqhk.co/connor/2015/11/gg38q5Y/GoldenStateWarriors-2015.jpg",
+        "imagem_dois": "https://images.303magazine.com/uploads/2023/04/ball_arena_recycle4.jpg",
+        "descricao": "Fotos da quadra",
+        "descricao_modal": "Quadra onde os jogos são realizados",
+        "id_album": 9
+      },
+      {
+        "id": 82,
+        "imagem_um": "https://images.axios.com/WPgMveefmlw-8W5ZB75Lh4zrmmA=/0x243:8192x4851/1920x1080/2023/06/13/1686632579401.jpg?w=1920",
+        "imagem_dois": "https://cdn.nba.com/teams/legacy/www.nba.com/nuggets/sites/nuggets/files/i5yswfya.jpg",
+        "descricao": "Fotos dos fans",
+        "descricao_modal": "Fãs do Denver Nuggets",
+        "id_album": 9
+      },
+      {
+        "id": 83,
+        "imagem_um": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/db/f5/c5/ball-arena.jpg?w=1000&h=-1&s=1",
+        "imagem_dois": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/57/c5/95/entrance.jpg?w=1000&h=-1&s=1",
+        "descricao": "Fotos do interior da arena",
+        "descricao_modal": "Fotos dentro do local",
+        "id_album": 9
+      },
+      {
+        "id": 84,
+        "imagem_um": "https://www.caaicon.com/sites/default/files/image/2018-04/DIR_1879-HDR.jpg",
+        "imagem_dois": "https://dimin.com/assets/images/processed/NoCrop_1000x1000/2273-la-clippers-experience-center.jpg",
+        "descricao": "Fotos do vestiário",
+        "descricao_modal": "Vestiário do Denver Nuggets e área dos jogadores",
+        "id_album": 9
+      },
+      {
+        "id": 85,
+        "imagem_um": "https://dm0qvy91a1i9v.cloudfront.net/venue-photos/ball-arena/ball-arena-photo-1691798998607-optimized",
+        "imagem_dois": "https://www.suiteexperiencegroup.com/wp-content/themes/responsive/images/pepsi-center-lower-level-suite-kitchenette_960.jpg",
+        "descricao": "Fotos da área premium",
+        "descricao_modal": "Área premium para assistir aos jogos",
+        "id_album": 9
+      },
+      {
+        "id": 86,
+        "imagem_um": "https://cdn.nba.com/teams/uploads/sites/1610612743/2024/03/team.jpg",
+        "imagem_dois": "https://media.cnn.com/api/v1/images/stellar/prod/230613110845-nuggets-nba-finals-team-photo.jpg?c=original",
+        "descricao": "Fotos do time",
+        "descricao_modal": "Time do Denver Nuggets",
+        "id_album": 9
+      },
+      { 
+        "id": 87,
+        "imagem_um": "https://www.uncovercolorado.com/wp-content/uploads/2018/06/peps-center-denver-colorado-1440x720.jpg",
+        "imagem_dois": "https://media.telemundodenver.com/2020/10/PEPSI-CENTER.jpg?quality=85&strip=all&resize=1200%2C675",
+        "descricao": "Fotos da arena",
+        "descricao_modal": "Arena coberta, multiuso, concebida por HOK Sport",
+        "id_album": 9
+      },
+      {
+        "id": 88,
+        "imagem_um": "https://pbs.twimg.com/media/DMoUK-IUMAAjWeM?format=jpg&name=small",
+        "imagem_dois": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/OXLZVE5ABFOZPEZBCGBKDMCSCM.jpg",
+        "descricao": "Fotos das homenagens",
+        "descricao_modal": "Faixas em homenagem as camisas aposentadas e campeonatos",
+        "id_album": 9
+      },
+      {
+        "id": 89,
+        "imagem_um": "https://dm0qvy91a1i9v.cloudfront.net/venue-photos/ball-arena/ball-arena-photo-1691798991556-optimized",
+        "imagem_dois": "https://static.wixstatic.com/media/ca8cc2_e0dae77aa784442cafcd9acb9a60f978~mv2.jpg/v1/fill/w_721,h_500,fp_0.50_0.50,q_90/ca8cc2_e0dae77aa784442cafcd9acb9a60f978~mv2.webp",
+        "descricao": "Fotos da arquitetura",
+        "descricao_modal": "Detalhes da construção da arena",
+        "id_album": 9
+      },
+      {
+        "id": 90,
+        "imagem_um": "https://townsquare.media/site/50/files/2022/03/attachment-denver-ball-arena.jpg",
+        "imagem_dois": "https://i0.wp.com/dt1jqiolganbd.cloudfront.net/wp-content/uploads/2023/03/ballarenasculpture.jpg?ssl=1",
+        "descricao": "Fotos de artes encontradas no local",
+        "descricao_modal": "Esculturas e monumentos",
+        "id_album": 9
+      }
+    ],
+    "destaques": [
+      {
+        "id": 1,
+        "imagemCapa": "https://elitesportsny.com/wp-content/uploads/2017/12/GettyImages-587752348.jpg",
+        "descricao": "Barclays Center - Arena do Brooklyn Nets",
+        "id_album": 1
+      },
+      {
+        "id": 2,
+        "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chase_Center.jpg/1500px-Chase_Center.jpg&w=1200&q=50",
+        "descricao": "Chase Center - Arena do Golden State Warriors",
+        "id_album": 2
+      },
+      {
+        "id": 3,
+        "imagemCapa": "https://populous.com/wp-content/uploads/2019/09/Fiserv_Forum_Exterior_Populous-1504x846.jpg",
+        "descricao": "Fiserv Forum - Arena do Milwaukee Bucks",
+        "id_album": 3
+      },
+      {
+        "id": 4,
+        "imagemCapa": "https://pbs.twimg.com/media/FmSAahWXgAA9xQW?format=jpg&name=small",
+        "descricao": "Kaseya Center - Arena do Miami Heat",
+        "id_album": 4
+      },
+      {
+        "id": 5,
+        "imagemCapa": "https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg/1500px-Madison_Square_Garden_%2528MSG%2529_-_Full_%252848124330357%2529.jpg&w=1200&q=50",
+        "descricao": "Madison Square Garden - Arena do New York Knicks",
+        "id_album": 5
+      },
+      {
+        "id": 6,
+        "imagemCapa": "https://www.nbbj.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnbbj%2Febc0ff08-5420-409d-bdcf-02a29c2b5aa8_Crypto-4750.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75",
+        "descricao": "Crypto.com Arena - Arena do Los Angeles Lakers",
+        "id_album": 6
+      },
+      {
+        "id": 7,
+        "imagemCapa": "https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2019/06/bruins-fight-video-td-garden-t.jpg",
+        "descricao": "TD Garden - Arena do Boston Celtics",
+        "id_album": 7
+      },
+      {
+        "id": 8,
+        "imagemCapa": "https://wsmech.com/assets/images/projects/headers/United-Center.png",
+        "descricao": "United Center - Arena do Chicago Bulls",
+        "id_album": 8
+      }
+    ]
+  }
