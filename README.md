@@ -11,12 +11,12 @@ Projeto desenvolvido para disciplina de Desenvolvimento de Interfaces Web, do cu
 <img src="https://github.com/user-attachments/assets/060175f6-a16f-4732-9f13-d81bf48ce683">
 
 ### ✔️ Tecnologias utilizadas
-- ``Visual Studio Code``
-- ``HTML``
-- ``CSS``
-- ``Bootstrap``
-- ``JavaScript``
-- ``JSON Server``
+- Visual Studio Code
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- JSON Server
 
 ### 📁 Como executar
 ``1`` Abra o terminal e clone o repositório: `git clone https://github.com/deboradrf/nba-arena` <br>
